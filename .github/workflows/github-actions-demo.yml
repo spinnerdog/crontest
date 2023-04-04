@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: 
     schedule:
         # * is a special character in YAML so you have to quote this string
-        - cron:  '0 5,17 * * *'
+        - cron:  '08 5,17 * * *'
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
