@@ -17,7 +17,7 @@ jobs:
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       - name: Retrieve Wiz Role CFT
         run: |
-          wget https://wizio-public.s3.amazonaws.com/deployment-v2/aws/wiz-aws-standard.json -o /home/runner/work/crontest/crontest/wiz-aws-standard.json
+          wget https://wizio-public.s3.amazonaws.com/deployment-v2/aws/wiz-aws-standard.json -O /home/runner/work/crontest/crontest/wiz-aws-standard.json
           git config --local user.name actions-user
           git config --local user.email "actions@github.com"
           git add /home/runner/work/crontest/crontest/wiz-aws-standard.json
