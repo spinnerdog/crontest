@@ -18,6 +18,8 @@ jobs:
       - name: Retrieve Wiz Role CFT
         run: |
           wget https://wizio-public.s3.amazonaws.com/deployment-v2/aws/wiz-aws-standard.json -o /home/runner/work/crontest/crontest/wiz-aws-standard.json
+          git config --local user.name actions-user
+          git config --local user.email "actions@github.com"
           git add /home/runner/work/crontest/crontest/wiz-aws-standard.json
           git commit -m 'updated role cft'
           git push origin main
