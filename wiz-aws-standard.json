@@ -1,0 +1,11 @@
+--2023-04-05 15:04:39--  https://wizio-public.s3.amazonaws.com/deployment-v2/aws/wiz-aws-standard.json
+Resolving wizio-public.s3.amazonaws.com (wizio-public.s3.amazonaws.com)... 52.219.109.188
+Connecting to wizio-public.s3.amazonaws.com (wizio-public.s3.amazonaws.com)|52.219.109.188|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 15464 (15K) [application/json]
+Saving to: ‘wiz-aws-standard.json.1’
+
+     0K .......... .....                                      100%  179M=0s
+
+2023-04-05 15:04:40 (179 MB/s) - ‘wiz-aws-standard.json.1’ saved [15464/15464]
+
